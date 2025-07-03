@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        .container {
+            display: flex;
+            background-color: rgba(110, 105, 98, 0);
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+        }
+
+        .container .item {
+            flex: auto;
+            background-color: rgb(52, 128, 163);
+            margin: 10px;
+            color: aliceblue;
+
+
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+        }
+
+        .item .a {
+            align-self: flex-start;
+            height: 500px;
+        }
+
+
+        .item .e {
+            align-self: stretch;
+        }
+
+        .item .i {
+            align-self: center;
+        }
+
+        .item .o {
+            align-self: flex-end;
+        }
+
+        .item .u {
+            align-self: flex-start;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Flexible Box</h1>
+    <h2>Box</h2>
+
+    <div class="container ">
+        <div class="item item-a">A</div>
+        <div class="item item-e">E</div>
+        <div class="item item-i">I</div>
+        <div class="item item-o">O</div>
+        <div class="item item-u">U</div>
+    </div>
+
+</body>
+
+</html>
